@@ -1,0 +1,314 @@
+.navBar {
+  max-width: 1015px;
+  height: 70px;
+  vertical-align: ce;
+  margin: auto;
+  padding: 20px;
+}
+
+.logo {
+  height: 30px;
+}
+
+div.nav {
+  display: inline;
+}
+
+li.nav {
+  display: inline;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.navLink {
+  color: #ababab;
+}
+.navLink:hover {
+  color: #00b39b;
+}
+
+.right {
+  float: right;
+}
+
+.main {
+  padding: 20px;
+  margin: auto;
+}
+.smallLogo {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.title {
+  font-size: 28px;
+  text-align: center;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+p {
+  line-height: 1.75;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.col2 {
+  width: 50%;
+  padding: 10px;
+}
+
+.col3 {
+  width: 33.3%;
+  margin: 10px;
+  border-radius: 10px;
+
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+}
+
+.card1 {
+  background: #00ccb1;
+}
+
+.card2 {
+  background: #3d83df;
+}
+
+.card3 {
+  background: #1b2734;
+}
+
+.card1,
+.card2,
+.card3 {
+  opacity: 0.9;
+  padding: 20px;
+}
+
+.cardContent h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.cardContent h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.brands h1 {
+  font-size: 26px;
+  font-weight: lighter;
+  color: #00b39b;
+  padding: 10px;
+}
+
+.brandsLogo {
+  padding: 10px;
+  fill: hsla(0, 0%, 67%, 0.7);
+  color: hsla(0, 0%, 67%, 0.7);
+}
+
+.gipo,
+.clinic {
+  padding-top: 0px;
+}
+
+/* .filter-green{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+} */
+
+.brandsLogo:hover {
+  fill: #00b39b;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* @media screen and (max-width: 600px) {
+    .col2 {
+      width: 100%;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .col3 {
+        width: 90%;
+    }
+} */
+
+.flex-container-content {
+  display: flex;
+  background-color: #d6f5f5;
+
+  margin-top: 40px;
+  width: 100%;
+  height: 600px;
+ 
+}
+
+.part1 {
+  
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.part2 {
+  
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.card {
+  height: 40%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+.img {
+  margin-top: 100px;
+}
+.part11 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.part12 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.part2 .p1 {
+  font-size: large;
+
+  color: rgb(0, 179, 155);
+}
+.part2 .p2 {
+  font-size: 13px;
+}
+.improve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.improve .p3 {
+  font-size: 30px;
+  max-width: 30%;
+
+  color: rgb(0, 179, 155);
+}
+.improve .p4 {
+  font-size: 14px;
+  max-width: 35%;
+}
+.flex-container-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 971px;
+  height: 1077px;
+  margin-left: 188px;
+  
+}
+.part200{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.part200:hover{
+    box-shadow: 1px 1px 2px 1px gray;
+}
+.part201{
+    display: flex;
+    justify-content: space-around;
+}
+.part200 img{
+    border-radius: 10px;
+}
+.part201 button{
+    height: 30px;
+    width: 110px;
+    background-color: #1662c6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.part300{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 220px;
+}
+.part300 button{
+
+  background-color: #1662c6 ;
+  color: white;
+  height: 40px;
+  width: 212px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.part300 p{
+ font-family:  "Work Sans", Arial, sans-serif;
+
+font-size:  30px;
+
+font-weight:  300;
+
+line-height:  39px;
+
+color: rgb(51, 51, 51);
+
+  }
+
+  .footer{
+    font-family: Roboto, Arial, sans-serif;
+
+font-size: 12px;
+
+font-weight: 400;
+
+line-height: 15.6px;
+
+color: rgb(171, 171, 171);
+text-align: center;
+  }
+  li{
+    list-style: none;
+  }
+  a{text-decoration: none;}
+  .dropdown-content{
+    display: none;
+    position: absolute;
+  }
+  .nav:hover .dropdown-content{
+    display: block;
+  }
+  
